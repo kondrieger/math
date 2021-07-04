@@ -13,7 +13,7 @@
 
 <script>
 import Header from '../components/header/header-maths.vue';
-import MathsStartBlock from '../views/StartBlock/MathsStartBlock.vue';
+import MathsStartBlock from '../views/MathsStartBlock/MathsStartBlock.vue';
 import MathFeatures from '../views/MathsFeatures/MathsFeatures.vue';
 import MathsWorld from '../views/MathsWorld/MathsWorld.vue';
 import MathsComment from '../views/MathsComment/MathsComment.vue';

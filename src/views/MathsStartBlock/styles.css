@@ -19,12 +19,6 @@
         padding-bottom: calc(var(--gs) * 25);
     }
 
-    &--programming {
-        @media (desktop) {
-            padding-bottom: calc(var(--gs) * 45);
-        }
-    }
-
     &__text {
         position: relative;
         padding-top: calc(var(--gs) * 1);

@@ -1,18 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Maths from '../pages/Maths.vue';
-import Programming from '../pages/Programming.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
     {
-        path: '/programming',
-        name: 'Programming',
-        component: Programming,
-    },
-    {
-        path: '/maths',
+        path: '/',
         name: 'Maths',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
