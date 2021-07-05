@@ -197,7 +197,7 @@
                 margin-right: calc(var(--gs) * 2);
             }
 
-            @media (mobile-lg) {
+            @media (--mobile-lg) {
                 margin-right: 0;
             }
         }
