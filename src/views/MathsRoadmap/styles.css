@@ -196,6 +196,10 @@
                 max-width: 240px;
                 margin-right: calc(var(--gs) * 2);
             }
+
+            @media (mobile-lg) {
+                margin-right: 0;
+            }
         }
 
         & .roadmap__list-item-text-wrap {
