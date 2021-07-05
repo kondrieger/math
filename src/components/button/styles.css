@@ -11,12 +11,20 @@
     font-size: 15px;
     font-weight: 600;
 
+    @media (--tablet) {
+        height: 37px;
+    }
+
     &--wide {
         width: 424px;
         height: 45px;
         border-radius: 60px;
         color: var(--cl-violet);
         background-color: var(--cl-white);
+
+        @media (--tablet) {
+            height: 37px;
+        }
 
         &:hover {
             background-color: var(--cl-pink);
