@@ -33,10 +33,10 @@
         &::after {
             content: '';
             position: absolute;
-            left: 88px;
+            left: 110px;
             bottom: -40px;
             height: 88px;
-            width: 88px;
+            width: 80px;
             background-color: var(--cl-dk-yellow);
             transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
             z-index: -1;
@@ -148,7 +148,7 @@
     }
 
     .swiper-slide {
-        text-align: center;
+        text-align: left;
         font-size: 38px;
         font-weight: 700;
         background-color: transparent;

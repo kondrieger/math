@@ -29,7 +29,8 @@ export default {
 
     &__wrap {
         background-color: var(--cl-dk-yellow);
-        background-image: svg-load('../../img/svg/math_circles_bg_sm.svg');
+        background-image: url('../../img/yellow_bg.png');
+        background-size: 1914px 336px;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -54,16 +55,12 @@ export default {
     }
 
     &__btn {
+        font-size: 1.25rem;
         margin: 0 auto;
 
-        @media (--tablet) and (--mobile-lg-min) {
-            width: 200px;
-            height: 37px;
-            font-size: 13px;
-        }
-
-        @media (--mobile-lg) {
-            width: 100%;
+        @media (--tablet) {
+            font-size: 15px;
+            width: 239px;
         }
     }
 }

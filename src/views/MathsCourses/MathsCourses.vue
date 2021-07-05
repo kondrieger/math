@@ -1,6 +1,7 @@
 <template>
     <div class="container courses">
         <h2 class="courses__title">Курсы для школьников</h2>
+        <img class="courses__circle-bg" :src="require('../../img/svg/math_circle_bg_sm.svg')" alt="" />
         <ul class="courses__list">
             <li class="courses__list-item">
                 <div class="courses__list-item-text">

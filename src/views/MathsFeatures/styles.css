@@ -1,6 +1,8 @@
 .features {
     padding: calc(var(--gs) * 6) 0;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 
     @media (--desktop) {
         padding: calc(var(--gs) * 9) 0;
@@ -13,6 +15,11 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        width: 100%;
+
+        @media (--desktop-min) {
+            width: calc(100% - 150px);
+        }
 
         @media (--tablet-min) {
             margin-right: -80px;
@@ -26,6 +33,7 @@
         @media (--mobile-lg) {
             display: block;
         }
+
         &-item {
             display: flex;
             flex-direction: column;

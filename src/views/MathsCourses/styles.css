@@ -1,5 +1,6 @@
 .courses {
     padding: calc(var(--gs) * 7) 0;
+    position: relative;
 
     @media (--desktop) {
         padding: calc(var(--gs) * 3) 0 calc(var(--gs) * 5);
@@ -23,6 +24,8 @@
 
         @media (--tablet) {
             margin-left: 0;
+            margin-bottom: calc(var(--gs) * 2.5);
+            font-size: 28px;
         }
     }
 
@@ -53,7 +56,7 @@
                 justify-content: center !important;
                 align-items: center !important;
                 max-height: 520px;
-                padding: calc(var(--gs) * 2.4);
+                padding: calc(var(--gs) * 3);
             }
 
             &--reverse {
@@ -64,6 +67,10 @@
 
             & + & {
                 margin-top: calc(var(--gs) * 3);
+
+                @media (--mobile-lg) {
+                    margin-top: calc(var(--gs) * 1);
+                }
             }
 
             &-text {
@@ -83,8 +90,6 @@
 
                 &-title,
                 &-subtitle {
-                    margin-bottom: calc(var(--gs) * 3);
-
                     @media (--tablet) {
                         font-size: 21px;
                         margin-bottom: calc(var(--gs) * 1.5);
@@ -96,12 +101,16 @@
                 }
 
                 &-title {
+                    margin-bottom: calc(var(--gs) * 2);
+
                     @media (--mobile-lg) {
                         margin-bottom: calc(var(--gs) * 0.5);
                     }
                 }
 
                 &-subtitle {
+                    margin-bottom: calc(var(--gs) * 3);
+
                     &--blue {
                         color: var(--cl-blue);
                     }
@@ -117,6 +126,10 @@
 
                     @media (--tablet) {
                         font-size: 14px;
+                    }
+
+                    @media (--mobile-lg) {
+                        margin-bottom: calc(var(--gs) * 2);
                     }
                 }
             }
@@ -183,6 +196,19 @@
                     }
                 }
             }
+        }
+    }
+
+    &__circle-bg {
+        position: absolute;
+        left: -70px;
+        top: -15px;
+        z-index: -1;
+        width: 242px;
+        height: 242px;
+
+        @media (--tablet-min) {
+            display: none;
         }
     }
 }
