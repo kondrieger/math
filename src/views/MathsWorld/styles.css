@@ -25,6 +25,10 @@
         @media (--tablet) {
             margin-bottom: calc(var(--gs) * 4);
         }
+
+        @media (--mobile-lg) {
+            margin-bottom: calc(var(--gs) * 0.5);
+        }
     }
 
     &__map {
@@ -46,9 +50,10 @@
         }
 
         @media (--mobile-lg) {
-            width: 606.22px;
+            width: 506.22px;
+            min-width: 506.22px;
             height: 271.57px;
-            margin-bottom: -80px;
+            margin-bottom: -100px;
         }
     }
 
