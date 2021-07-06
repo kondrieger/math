@@ -15,7 +15,7 @@
                 </div>
                 <img
                     class="courses__list-item-img courses__list-item-img--girl"
-                    :src="require('../../img/math_courses_1.png')"
+                    :src="require('../../img/math_courses_1.svg')"
                     alt=""
                 />
             </li>
