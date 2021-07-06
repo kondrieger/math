@@ -67,11 +67,30 @@
                 }
             }
 
-            & + & {
-                margin-top: calc(var(--gs) * 3);
+            &-wrap {
+                width: 100%;
+                & + & {
+                    margin-top: calc(var(--gs) * 3);
 
-                @media (--mobile-lg) {
-                    margin-top: calc(var(--gs) * 1);
+                    @media (--mobile-lg) {
+                        margin-top: calc(var(--gs) * 1);
+                    }
+                }
+
+                &:hover {
+                    & .courses__list-item-img {
+                        margin-top: -10px;
+                    }
+                }
+
+                &:active {
+                    padding-top: 10px;
+                    margin-bottom: -10px !important;
+
+                    @media (--tablet) {
+                        padding-top: 5px;
+                        margin-bottom: -5px !important;
+                    }
                 }
             }
 
@@ -103,6 +122,7 @@
                 }
 
                 &-title {
+                    line-height: 1.2;
                     margin-bottom: calc(var(--gs) * 1.5);
 
                     @media (--mobile-lg) {
@@ -149,6 +169,8 @@
                 &--girl {
                     right: 100px;
                     top: -20px;
+                    width: 475px;
+                    height: 461px;
 
                     @media (--desktop-lg) {
                         right: 50px;
