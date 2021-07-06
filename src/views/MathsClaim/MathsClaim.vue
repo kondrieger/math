@@ -20,11 +20,13 @@ export default {
 
 <style>
 .claim {
-    padding: calc(var(--gs) * 7) 0;
+    padding-top: calc(var(--gs) * 7);
+    padding-bottom: calc(var(--gs) * 7);
     text-align: center;
 
     @media (--tablet) {
-        padding: calc(var(--gs) * 4) 0;
+        padding-top: calc(var(--gs) * 4);
+        padding-bottom: calc(var(--gs) * 4);
     }
 
     &__wrap {

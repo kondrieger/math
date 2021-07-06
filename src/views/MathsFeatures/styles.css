@@ -1,15 +1,18 @@
 .features {
-    padding: calc(var(--gs) * 6) 0;
+    padding-top: calc(var(--gs) * 6);
+    padding-bottom: calc(var(--gs) * 6);
     overflow: hidden;
     display: flex;
     justify-content: center;
 
     @media (--desktop) {
-        padding: calc(var(--gs) * 9) 0;
+        padding-top: calc(var(--gs) * 9);
+        padding-bottom: calc(var(--gs) * 9);
     }
 
     @media (--tablet) {
-        padding: calc(var(--gs) * 3) 0;
+        padding-top: calc(var(--gs) * 3);
+        padding-bottom: calc(var(--gs) * 3);
     }
 
     &__list {
@@ -28,6 +31,7 @@
         @media (--tablet) {
             flex-direction: column;
             justify-content: unset;
+            max-width: 650px;
         }
 
         @media (--mobile-lg) {

@@ -1,9 +1,9 @@
 .start-block {
-    padding: calc(var(--gs) * 3) 0;
+    padding-top: calc(var(--gs) * 3);
+    padding-bottom: calc(var(--gs) * 10);
     display: flex;
     justify-content: space-between;
     background: transparent;
-    padding-bottom: calc(var(--gs) * 10);
 
     @media (--desktop) {
         padding-top: calc(var(--gs) * 1);

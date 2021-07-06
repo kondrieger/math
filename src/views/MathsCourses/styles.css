@@ -1,9 +1,11 @@
 .courses {
-    padding: calc(var(--gs) * 7) 0;
+    padding-top: calc(var(--gs) * 7);
+    padding-bottom: calc(var(--gs) * 7);
     position: relative;
 
     @media (--desktop) {
-        padding: calc(var(--gs) * 3) 0 calc(var(--gs) * 5);
+        padding-top: calc(var(--gs) * 3);
+        padding-bottom: calc(var(--gs) * 5);
     }
 
     @media (--tablet) {
