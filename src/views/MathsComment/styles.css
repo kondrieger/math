@@ -1,7 +1,9 @@
 .comment {
     padding-bottom: calc(var(--gs) * 5);
+
     @media (--mobile-lg) {
-        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
     }
 
     &__wrap {

@@ -138,6 +138,10 @@
 
                     transform: rotate(21.91deg);
                 }
+
+                @media (max-width: 359px) {
+                    display: none;
+                }
             }
         }
     }
