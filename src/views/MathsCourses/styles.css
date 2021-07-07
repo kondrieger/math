@@ -124,7 +124,7 @@
 
                 &-title {
                     line-height: 1.2;
-                    margin-bottom: calc(var(--gs) * 1.5);
+                    margin-bottom: calc(var(--gs) * 1);
                     color: var(--cl-violet);
 
                     @media (--mobile-lg) {
