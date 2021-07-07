@@ -67,7 +67,7 @@ export default {
         }
 
         @media (--mobile-lg) {
-            height: 3315.69px;
+            height: 3515.69px;
             background-position: center -40px;
             background-image: svg-load('../img/svg/math_bg_sm.svg');
         }
