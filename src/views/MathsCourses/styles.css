@@ -57,7 +57,8 @@
                 flex-direction: column-reverse;
                 justify-content: center !important;
                 align-items: center !important;
-                max-height: 520px;
+                max-height: 500px;
+                min-height: 500px;
                 padding: calc(var(--gs) * 3);
             }
 
@@ -124,6 +125,7 @@
                 &-title {
                     line-height: 1.2;
                     margin-bottom: calc(var(--gs) * 1.5);
+                    color: var(--cl-violet);
 
                     @media (--mobile-lg) {
                         margin-bottom: calc(var(--gs) * 0.5);

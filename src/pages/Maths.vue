@@ -63,13 +63,17 @@ export default {
 
         @media (--tablet) {
             height: 2915.69px;
-            background-position: center -206px;
+            background-position: center -196px;
         }
 
         @media (--mobile-lg) {
             height: 3315.69px;
-            background-position: center -15px;
+            background-position: center -40px;
             background-image: svg-load('../img/svg/math_bg_sm.svg');
+        }
+
+        @media (max-width: 450px) {
+            background-position: center -10px;
         }
     }
 }

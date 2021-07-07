@@ -139,7 +139,7 @@
             &-text {
                 font-size: 20px;
                 line-height: 1.35;
-                font-weight: 600;
+                font-weight: 500;
 
                 @media (--desktop) {
                     font-size: 16px;
