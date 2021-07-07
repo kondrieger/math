@@ -223,6 +223,8 @@
                 &--boy {
                     top: 30px;
                     left: 100px;
+                    width: 454.49px;
+                    height: 408.3px;
 
                     @media (--desktop-lg) {
                         left: 60px;

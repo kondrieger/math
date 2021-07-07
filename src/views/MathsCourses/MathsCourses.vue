@@ -42,7 +42,7 @@
                     <div class="courses__list-item-img-wrap">
                         <img
                             class="courses__list-item-img courses__list-item-img--boy"
-                            :src="require('../../img/svg/math_courses_2.svg')"
+                            :src="require('../../img/math_courses_2.png')"
                             alt=""
                         />
                     </div>
